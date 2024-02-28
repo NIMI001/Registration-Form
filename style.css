@@ -1,0 +1,96 @@
+body{
+    display: grid;
+    justify-content: center;
+    background-color:black;
+    
+}
+a{
+    margin-top: 15px;
+   margin-bottom: 15px;
+}
+.master{
+    display:grid;
+    justify-content: center;
+    border: 2px solid yellow;
+    width: 600px;
+    height:900px;
+    padding-top: 30px;
+}
+form{
+    background-color:rgb(154, 233, 9);
+    width: 350px;
+    height: 600px;
+    border:1px solid grey;
+    border-radius:15px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.Ido{
+    width: 300px;
+    height:30px;
+    border:2px solid grey;
+    border-radius:10px;
+}
+.titleme{
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+#btnu{
+    margin-top: 30px;
+    display:flex;
+    justify-content: center;
+}
+.btn1{
+    width: 70px;
+    height: 30px;
+    border:2px solid grey;
+    border-radius: 15px;
+    font-size: medium;
+    margin-right:30px;
+}
+.btn2{
+    width: 70px;
+    height: 30px;
+    border:2px solid grey;
+    border-radius: 15px;
+    font-size: medium;
+    margin-left:30px;
+}
+h4{
+    color:white;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.pro{
+    color:white;
+    font-weight:bold;
+    font-size: 18px;
+}
+@media only screen and (max-width:600px) {
+    
+    body{
+    background-color: #FFF2D8;
+    }
+    @keyframes example {
+        from{color:#113946;}
+        to{color:#AE445A;}
+    }
+    h4 {
+        color:#A7727D;
+        animation-name:example;
+        animation-duration: 3s;
+        animation-direction: alternate-reverse;
+        animation-iteration-count:5;
+    }
+    .pro {
+        color:#A7727D;
+        animation-name:example;
+        animation-duration: 3s;
+        animation-direction: alternate-reverse;
+        animation-iteration-count:5;
+    }
+    form{
+        background-color: #EAD7BB;
+    }
+    
+}

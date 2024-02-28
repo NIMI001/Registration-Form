@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Practice</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="Action.js"></script>
+</head>
+<body>
+    <div class="master">
+        <h4>Trail Harley HTML form practice</h4>
+        <P class="pro"> My first project</P>
+        <a href="https://www.google.com"> Google</a>
+        <form method="post" action="Redirect.html">
+            <div class="titleme">
+                <label for="Title">Title</label>
+                <label for="Mr">Mr</label>
+                <input type="radio"id="Mr" name="Title"/>
+                <label for="Mrs">Mrs</label>
+                <input type="radio"id="Mrs" name="Title"/>
+                <label for="Miss">Miss</label>
+                <input type="radio"id="Miss" name="Title"/>
+            </div>
+            <div>
+              <label for="FirstName">FirstName</label>
+             <p>
+                <input type="text"class="Ido" placeholder="Enter your First Name" id="FirstName" value="" required/> 
+             </p> 
+            </div>
+            <div>
+                <label for="Email">Email</label>
+               <p>
+                <input type="email" class="Ido" placeholder="Enter your email" id="email" value="" required/>
+               </p> 
+            </div>
+            <div>
+                <label for="Password">Password</label>
+                <p>
+                    <input type="password"  class="Ido" placeholder="Enter your password" id="password" value="" required/>
+                </p>
+            </div>
+            <div>
+                <label for="Date">Date</label>
+                <p>
+                    <input type="date" placeholder="Enter date" id="date" value="" required/>
+                </p>
+            </div>
+            <div>
+                <label for="CardType">Select your card type</label>
+                <p>
+                    <select name="CardType" id="CardType">
+                        <option value="Verve">Verve</option>
+                        <option value="MasterCard">Master Card</option>
+                        <option value="Visa">Visa</option>
+                        </select>
+                </p>
+                
+            </div>
+            <div>
+                <label for="TransactionType">TransactionType</label>
+                
+                <p>
+                    <label for="Withdrawal">Withdrawal</label>
+                    <input type="checkbox" id="Withdrawal" name="TransactionType"/>
+                    <label for="Transfer">Transfer</label>
+                    <input type="checkbox" id="Transfer" name="TransactionType"/>
+                    <label for="Deposit">Deposit</label>
+                    <input type="checkbox" id="Deposit" name="TransactionType"/> 
+                </p>
+                
+            </div>
+            <div id="btnu"> 
+                <input  class="btn1" type="submit"/> 
+                <input  class = "btn2" type="reset"/>
+            </div>
+        </form>
+    </div>
+   
+</body>
+</html>
